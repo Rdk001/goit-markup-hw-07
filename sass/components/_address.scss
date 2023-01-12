@@ -1,0 +1,24 @@
+.address {
+  display: flex;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  &__item + &__item {
+    margin-top: 9px;
+  }
+}
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+  @include animation(color);
+  &--mod {
+    color: $white__bg__color;
+    margin-bottom: 10px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  &:hover,
+  &:focus {
+    color: $blue__bg__color;
+  }
+}
