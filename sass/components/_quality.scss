@@ -1,7 +1,3 @@
-.quality__item + .quality__item {
-  margin-left: 30px;
-}
-
 .quality__list {
   @extend .activities__list;
 }
@@ -32,9 +28,4 @@
   height: 120px;
   background-color: $secondary__white__color;
   margin-bottom: 30px;
-}
-
-.quality__icon {
-  margin-left: auto;
-  margin-right: auto;
 }

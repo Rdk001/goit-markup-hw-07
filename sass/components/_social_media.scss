@@ -1,14 +1,11 @@
 .social__media {
-  display: flex;
-  justify-content: center;
+  @include centredFlex();
+  gap: 10px;
   margin-top: 16px;
 }
 
 .social__media__icon {
   fill: $icon__main__color;
-
-  margin-left: auto;
-  margin-right: auto;
 
   @include animation(fill);
 
@@ -25,9 +22,7 @@
   border-radius: 50%;
 
   @include animation(background);
-  & + & {
-    margin-left: 10px;
-  }
+
   &:hover,
   &:focus {
     background: $blue__bg__color;

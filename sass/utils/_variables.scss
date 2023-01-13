@@ -23,6 +23,7 @@ $main__font: Roboto, sans-serif;
 @mixin centredFlex() {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @mixin animation($type) {
