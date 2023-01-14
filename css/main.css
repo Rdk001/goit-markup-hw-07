@@ -658,7 +658,6 @@ img {
 .modal__form__checkbox {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 20px;
   padding-left: 10px;
 }
